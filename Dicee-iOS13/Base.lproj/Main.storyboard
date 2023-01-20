@@ -44,12 +44,17 @@
                                     <fontDescription key="titleFontDescription" name="Impact" family="Impact" pointSize="55"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddi-t3-a1P"/>
+                                    <action selector="rollButtonTouchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="1s5-aW-0dK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="diceButtonRoll" destination="IfH-nE-N3V" id="tAr-L7-TBk"/>
                         <outlet property="diceImageViewOne" destination="wAM-GP-NGJ" id="JDb-Jv-XdH"/>
                         <outlet property="diceImageViewTwo" destination="KSq-OB-I3t" id="v4G-p1-4H4"/>
                     </connections>
