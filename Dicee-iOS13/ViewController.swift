@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageViewTwo: UIImageView!
     @IBOutlet weak var diceButtonRoll: UIButton!
     
-    var diceImages = [
+    let diceImages = [
         UIImage(imageLiteralResourceName: "DiceOne"),
         UIImage(imageLiteralResourceName: "DiceTwo"),
         UIImage(imageLiteralResourceName: "DiceThree"),
